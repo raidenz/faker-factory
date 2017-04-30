@@ -1,0 +1,8 @@
+{
+	"/api/": "/",
+	"/sample/:resource": "/:resource",
+	"/sample/:resource/:id": "/:resource/:id",
+	"/blog/:resource": "/:resource?_embed=comment",
+	"/blog/post/id/:id": "/post/:id/?_embed=comment",
+	"/blog/post/:slug": "/post/?slug=:slug&_embed=comment"
+}

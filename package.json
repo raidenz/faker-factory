@@ -1,0 +1,36 @@
+{
+  "name": "faker-factory",
+  "version": "1.0.0",
+  "description": "create fake mockup server",
+  "main": "generator.js",
+  "directories": {
+    "doc": "./docs"
+  },
+  "scripts": {
+    "start": "json-server --watch db.json",
+    "generate": "node generator",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raidenz/faker-factory.git"
+  },
+  "keywords": [
+    "faker",
+    "mock",
+    "nodejs",
+    "server",
+    "json",
+    "API"
+  ],
+  "author": "Raidenz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raidenz/faker-factory/issues"
+  },
+  "homepage": "https://github.com/raidenz/faker-factory#readme",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "json-server": "^0.10.0"
+  }
+}
