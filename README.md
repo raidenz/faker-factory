@@ -55,3 +55,4 @@ You can setting port and config from json-server.json
   "routes": "routes.json"
 }
 ```
+test mode
