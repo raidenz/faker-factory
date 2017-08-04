@@ -1,3 +1,4 @@
 db.json
 node_modules
 history/gitver.js
+history/*.sh
