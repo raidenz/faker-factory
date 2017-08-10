@@ -1,6 +1,6 @@
 {
   "name": "faker-factory",
-  "version": "1.0.1",
+  "version": "1.0.7",
   "description": "create fake mockup server",
   "main": "generator.js",
   "directories": {
